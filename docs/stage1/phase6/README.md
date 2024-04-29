@@ -253,6 +253,7 @@ public class GearIn_StableInjector extends BaseHullMod {
     public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
         float pad = 5f;//控制间距5个像素
         float tableWidth = width - pad;//表格宽度
+        tooltip.addSectionHeading("额外描述", Alignment.TMID, pad * 2f);
         tooltip.beginTable(
                 Misc.getBasePlayerColor(),
                 Misc.getDarkPlayerColor(),
