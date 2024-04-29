@@ -26,37 +26,37 @@ export default defineUserConfig({
                 link: '/',
             },
             {
-              text: '第一章',
+              text: '第一章 基础及舰船相关',
               link: '/stage1/',
               collapsible: true,
               children: [
                 {
-                    text: '小节 1',
+                    text: '小节 MOD结构',
                     link: '/stage1/phase1/',
                     children: [],
                 },
                 {
-                    text: '小节 2',
+                    text: '小节 基本舰船',
                     link: '/stage1/phase2/',
                     children: [],
                 },
                 {
-                    text: '小节 3',
+                    text: '小节 航母、战机与相位舰',
                     link: '/stage1/phase3/',
                     children: [],
                 },
                 {
-                    text: '小节 4',
+                    text: '小节 武器',
                     link: '/stage1/phase4/',
                     children: [],
                 },
                 {
-                    text: '小节 5',
+                    text: '小节 战术系统',
                     link: '/stage1/phase5/',
                     children: [],
                 },
                 {
-                    text: '小节 6',
+                    text: '小节 舰船插件',
                     link: '/stage1/phase6/',
                     children: [],
                 },
@@ -68,27 +68,27 @@ export default defineUserConfig({
                 collapsible: true,
                 children: [
                     {
-                        text: '小节 1',
+                        text: '小节 战役',
                         link: '/stage2/phase1/',
                         children: [],
                     },
                     {
-                        text: '小节 2',
+                        text: '小节 势力',
                         link: '/stage2/phase2/',
                         children: [],
                     },
                     {
-                        text: '小节 3',
+                        text: '小节 星系',
                         link: '/stage2/phase3/',
                         children: [],
                     },
                     {
-                        text: '小节 4',
+                        text: '小节 描述文本',
                         link: '/stage2/phase4/',
                         children: [],
                     },
                     {
-                        text: '小节 5',
+                        text: '小节 内置装配',
                         link: '/stage2/phase5/',
                         children: [],
                     },
@@ -100,39 +100,39 @@ export default defineUserConfig({
                 collapsible: true,
                 children: [
                     {
-                        text: '小节 1',
+                        text: '小节 模拟战',
                         link: '/stage3/phase1/',
                         children: [],
                     },
                     {
-                        text: '小节 2',
+                        text: '小节 舰船风格',
                         link: '/stage3/phase2/',
                         children: [],
                     },
                     {
-                        text: '小节 3',
+                        text: '小节 模块船',
                         link: '/stage3/phase3/',
                         children: [],
                     },
                     {
-                        text: '小节 4',
+                        text: '小节 势力争霸',
                         link: '/stage3/phase4/',
                         children: [],
                     },
                     {
-                        text: '小节 5',
+                        text: '小节 弹体尾迹',
                         link: '/stage3/phase5/',
                         children: [],
                     },
                     {
-                        text: '小节 6',
+                        text: '小节 音效相关',
                         link: '/stage3/phase6/',
                         children: [],
                     },
                 ],
             },
             {
-                text: '第四章',
+                text: '第四章 等待设计',
                 link: '/stage4/',
                 collapsible: true,
                 children: [
@@ -169,79 +169,79 @@ export default defineUserConfig({
                 ],
             },
             {
-                text: '第五章',
+                text: '第五章 核心代码',
                 link: '/stage5/',
                 collapsible: true,
                 children: [
                     {
-                        text: '小节 1',
+                        text: '小节 ModPlugin',
                         link: '/stage5/phase1/',
                         children: [],
                     },
                     {
-                        text: '小节 2',
+                        text: '小节 Global',
                         link: '/stage5/phase2/',
                         children: [],
                     },
                     {
-                        text: '小节 3',
+                        text: '小节 CombatEngine 等待设计',
                         link: '/stage5/phase3/',
                         children: [],
                     },
                     {
-                        text: '小节 4',
+                        text: '小节 CombatEntity 等待设计',
                         link: '/stage5/phase4/',
                         children: [],
                     },
                     {
-                        text: '小节 5',
+                        text: '小节 5 等待设计',
                         link: '/stage5/phase5/',
                         children: [],
                     },
                     {
-                        text: '小节 6',
+                        text: '小节 船插 等待设计',
                         link: '/stage5/phase6/',
                         children: [],
                     },
                     {
-                        text: '小节 7',
+                        text: '小节 战术系统AI 等待设计',
                         link: '/stage5/phase7/',
                         children: [],
                     },
                     {
-                        text: '小节 8',
+                        text: '小节 开火/命中 等待设计',
                         link: '/stage5/phase8/',
                         children: [],
                     },
                 ],
             },
             {
-                text: '第六章',
+                text: '第六章 进阶 等待设计',
                 link: '/stage6/',
                 collapsible: true,
                 children: [
                     {
-                        text: '小节 1',
+                        text: '小节 BaseEveryFrameCombatPlugin',
                         link: '/stage6/phase1/',
                         children: [],
                     },
                     {
-                        text: '小节 2',
+                        text: '小节 BaseCombatLayeredRenderingPlugin',
                         link: '/stage6/phase2/',
                         children: [],
                     },
                     {
-                        text: '小节 3',
+                        text: '小节 EveryFrameWeaponEffectPlugin',
                         link: '/stage6/phase3/',
                         children: [],
                     },
                     {
-                        text: '小节 4',
+                        text: '小节 AI',
                         link: '/stage6/phase4/',
                         children: [],
                     },
                     {
-                        text: '小节 5',
+                        text: '小节 动画设计',
                         link: '/stage6/phase5/',
                         children: [],
                     },
@@ -253,7 +253,7 @@ export default defineUserConfig({
                 ],
             },
             {
-                text: '第七章',
+                text: '第七章 等待设计',
                 link: '/stage7/',
                 collapsible: true,
                 children: [
@@ -295,7 +295,7 @@ export default defineUserConfig({
                 ],
             },
             {
-                text: '第八章',
+                text: '第八章 等待设计',
                 link: '/stage8/',
                 collapsible: true,
                 children: [
@@ -332,7 +332,7 @@ export default defineUserConfig({
                 ],
             },
             {
-                text: '第九章',
+                text: '第九章 等待设计',
                 link: '/stage9/',
                 collapsible: true,
                 children: [
